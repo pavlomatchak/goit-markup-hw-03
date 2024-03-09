@@ -1,0 +1,114 @@
+:root {
+  --body-text: #434455;
+  --link-hover: #404BBF;
+  --theme-main: #2E2F42;
+  --theme-secondary: #4D5AE5;
+  --border: #E7E9FC;
+  --white: #fff;
+  --background: #F4F4FD;
+}
+
+a {
+  color: inherit;
+  text-decoration: none; /* not metnioned in homework requirements */
+}
+
+ul {
+  list-style: none; /* not metnioned in homework requirements */
+}
+
+body {
+  color: var(--body-text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.logo .highlight {
+  color: var(--theme-secondary);
+}
+
+.main-nav .nav-link {
+  font-weight: 500;
+}
+
+.header .nav-link:hover,
+.header .nav-link:focus {
+  color: var(--link-hover);
+}
+
+.address-nav a {
+  font-style: normal; /* not metnioned in homework requirements */
+}
+
+.studio {
+  background-color: var(--theme-main);
+}
+
+.main-title {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+}
+
+.cta {
+  background-color: var(--theme-secondary);
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.cta:hover,
+.cta:focus {
+  background-color: var(--link-hover);
+}
+
+.section-title {
+  color: var(--theme-color);
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.list-title {
+  color: var(--theme-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.contacts {
+  background-color: var(--background);
+}
+
+.footer {
+  background-color: var(--theme-main);
+  color: var(--background);
+}
+
+.filter-button {
+  background-color: var(--background);
+  color: var(--theme-secondary);
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--link-hover);
+  color: var(--white);
+}
+
